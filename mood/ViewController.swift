@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBOutlet weak var display: UILabel!
+    
+    @IBAction func gifme() {
+        display.text = "hello"
+    }
+    
 
 
 }
